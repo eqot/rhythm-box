@@ -1,12 +1,44 @@
 import React from 'react'
 
-export default class Pane extends React.PureComponent {
+export interface Props {}
+
+interface State {
+  isClicked: boolean
+}
+
+export default class Pane extends React.Component<Props, State> {
+  constructor(props: any) {
+    super(props)
+
+    this.state = {
+      isClicked: false
+    }
+  }
+
   render() {
+    const { isClicked } = this.state
+
     const style = {
-      backgroundColor: 'black',
-      border: 'solid 1px white'
+      // border: 'solid 1px white',
+      backgroundColor: isClicked ? 'white' : 'black',
+      transition: 'all ease',
+      transitionDuration: isClicked ? '0s' : '300ms'
     }
 
-    return <div style={style} />
+    if (isClicked) {
+      setTimeout(() => {
+        this.setState(() => ({
+          isClicked: false
+        }))
+      }, 1)
+    }
+
+    return <div style={style} onClick={this.handleClick} />
+  }
+
+  handleClick = () => {
+    this.setState(() => ({
+      isClicked: true
+    }))
   }
 }
