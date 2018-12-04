@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/eqot/rhythm-box/precache-manifest.cbc110cdec69e7b2cd86e661a2d0cd2c.js"
+  "/rhythm-box/precache-manifest.ca1ff43592a337e156c7ed2381986948.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/eqot/rhythm-box/index.html", {
+workbox.routing.registerNavigationRoute("/rhythm-box/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
