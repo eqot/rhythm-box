@@ -33,7 +33,12 @@ export default class Pane extends React.Component<Props, State> {
       }, 1)
     }
 
-    return <div style={style} onClick={this.handleClick} />
+    const handlers =
+      'ontouchstart' in window
+        ? { onTouchStart: this.handleClick }
+        : { onMouseDown: this.handleClick }
+
+    return <div style={style} {...handlers} />
   }
 
   handleClick = () => {
