@@ -20,7 +20,7 @@ export default class Tile extends React.Component<Props> {
 
     const panes = []
     for (let i = 0; i < columns * rows; i++) {
-      panes.push(<Pane />)
+      panes.push(<Pane key={i} />)
     }
 
     return <div style={style}>{panes}</div>
