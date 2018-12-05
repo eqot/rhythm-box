@@ -5,11 +5,12 @@ import Pane from '../components/Pane'
 export interface Props {
   columns: number
   rows: number
+  sounds: Array<string>
 }
 
 export default class Tile extends React.Component<Props> {
   render() {
-    const { columns, rows } = this.props
+    const { columns, rows, sounds } = this.props
 
     const style = {
       height: '100%',
@@ -20,7 +21,7 @@ export default class Tile extends React.Component<Props> {
 
     const panes = []
     for (let i = 0; i < columns * rows; i++) {
-      panes.push(<Pane key={i} />)
+      panes.push(<Pane sound={sounds[i]} key={i} />)
     }
 
     return <div style={style}>{panes}</div>

@@ -1,18 +1,27 @@
 import React from 'react'
+import { Howl } from 'howler'
 
-export interface Props {}
+export interface Props {
+  sound: string
+}
 
 interface State {
   isClicked: boolean
 }
 
 export default class Pane extends React.Component<Props, State> {
+  sound: any
+
   constructor(props: any) {
     super(props)
 
     this.state = {
       isClicked: false
     }
+
+    this.sound = new Howl({
+      src: this.props.sound
+    })
   }
 
   render() {
@@ -42,6 +51,8 @@ export default class Pane extends React.Component<Props, State> {
   }
 
   handleClick = () => {
+    this.sound.play()
+
     this.setState(() => ({
       isClicked: true
     }))

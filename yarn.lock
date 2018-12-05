@@ -817,6 +817,11 @@
     "@svgr/core" "^2.4.1"
     loader-utils "^1.1.0"
 
+"@types/howler@^2.0.5":
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/@types/howler/-/howler-2.0.5.tgz#eb5eb99b943fe423abe3ca713163ed911e2a0d76"
+  integrity sha512-4zO47MpD8ztLGK1Q3DsVMxP5q1yIGRS+vtLqXuVGXHdiDkD/IvYM2vBByuX4eMW4fmLk5SWQpd6FFL2jvJkItw==
+
 "@types/node@^10.12.12":
   version "10.12.12"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-10.12.12.tgz#e15a9d034d9210f00320ef718a50c4a799417c47"
@@ -4332,6 +4337,11 @@ hosted-git-info@^2.1.4:
   version "2.7.1"
   resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.7.1.tgz#97f236977bd6e125408930ff6de3eec6281ec047"
   integrity sha512-7T/BxH19zbcCTa8XkMlbK5lTo1WtgkFi3GvdWEyNuc4Vex7/9Dqbnpsf4JMydcfj9HCg4zUWFTL3Za6lapg5/w==
+
+howler@^2.0.15:
+  version "2.0.15"
+  resolved "https://registry.yarnpkg.com/howler/-/howler-2.0.15.tgz#8f26d6548d29b257441fc190644b4392ce99ad32"
+  integrity sha512-Ceui16WCAdBiRlI3cK/zPmp6eWKG4wU5yIYHtH+X4zPhwqbr2ieRQvt/1J60NCqEXFHuBKdzBrS5DRYkMwiQsg==
 
 hpack.js@^2.1.6:
   version "2.1.6"
