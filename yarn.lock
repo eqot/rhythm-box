@@ -847,6 +847,11 @@
     "@types/prop-types" "*"
     csstype "^2.2.0"
 
+"@types/screenfull@^3.3.2":
+  version "3.3.2"
+  resolved "https://registry.yarnpkg.com/@types/screenfull/-/screenfull-3.3.2.tgz#2425ed1ff1c70913e40c622c31b9b3b51701c9f9"
+  integrity sha512-2mdZgaFDd1+qJDOw3RlBnVNucwt3xnHEkKmoIpSBmLr9QzVW2EOwmQnPmUf/MfCx2JVGu1Lq7vDVfML/mioFmA==
+
 "@types/tapable@1.0.2":
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/@types/tapable/-/tapable-1.0.2.tgz#e13182e1b69871a422d7863e11a4a6f5b814a4bd"
@@ -8371,6 +8376,11 @@ schema-utils@^1.0.0:
     ajv "^6.1.0"
     ajv-errors "^1.0.0"
     ajv-keywords "^3.1.0"
+
+screenfull@^3.3.3:
+  version "3.3.3"
+  resolved "https://registry.yarnpkg.com/screenfull/-/screenfull-3.3.3.tgz#8cf7e706aceac2e75131aadcb81b622acfe11d39"
+  integrity sha512-DzYUuXr+OV2BDvYXaYzlYgJd4WXZZ2CW5NFC7Kw6TUCpzXJAx4MwlVD6CH+Mu6fi8rfAQIQfqdFZ4jtDsEkWig==
 
 select-hose@^2.0.0:
   version "2.0.0"
