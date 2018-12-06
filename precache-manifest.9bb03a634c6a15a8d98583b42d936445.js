@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/rhythm-box/static/js/runtime~main.967adc93.js"
   },
   {
-    "revision": "031b992af0e94106523b",
-    "url": "/rhythm-box/static/js/main.031b992a.chunk.js"
+    "revision": "59fb65ad4d192fd2ca2d",
+    "url": "/rhythm-box/static/js/main.59fb65ad.chunk.js"
   },
   {
     "revision": "7aaaf30c4191a3f21e5f",
     "url": "/rhythm-box/static/js/1.7aaaf30c.chunk.js"
   },
   {
-    "revision": "031b992af0e94106523b",
+    "revision": "59fb65ad4d192fd2ca2d",
     "url": "/rhythm-box/static/css/main.c0d265c2.chunk.css"
   },
   {
-    "revision": "a1e0471f5c389de8c76d57280b7e4fc2",
+    "revision": "8ff377eab1dc81e242d75419d663c8ac",
     "url": "/rhythm-box/index.html"
   }
 ];
