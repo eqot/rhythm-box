@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/rhythm-box/static/css/main.1faf9a81.chunk.css"
   },
   {
-    "revision": "dd2da0b17196370c63bf146ea3ca862e",
+    "revision": "918c08430b111126d917f3b08fc80d0a",
     "url": "/rhythm-box/index.html"
   }
 ];
