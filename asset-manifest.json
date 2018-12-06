@@ -1,13 +1,13 @@
 {
-  "main.css": "/rhythm-box/static/css/main.1faf9a81.chunk.css",
-  "main.js": "/rhythm-box/static/js/main.90acf142.chunk.js",
-  "main.js.map": "/rhythm-box/static/js/main.90acf142.chunk.js.map",
+  "main.css": "/rhythm-box/static/css/main.c0d265c2.chunk.css",
+  "main.js": "/rhythm-box/static/js/main.031b992a.chunk.js",
+  "main.js.map": "/rhythm-box/static/js/main.031b992a.chunk.js.map",
   "static/js/1.7aaaf30c.chunk.js": "/rhythm-box/static/js/1.7aaaf30c.chunk.js",
   "static/js/1.7aaaf30c.chunk.js.map": "/rhythm-box/static/js/1.7aaaf30c.chunk.js.map",
   "runtime~main.js": "/rhythm-box/static/js/runtime~main.967adc93.js",
   "runtime~main.js.map": "/rhythm-box/static/js/runtime~main.967adc93.js.map",
-  "static/css/main.1faf9a81.chunk.css.map": "/rhythm-box/static/css/main.1faf9a81.chunk.css.map",
+  "static/css/main.c0d265c2.chunk.css.map": "/rhythm-box/static/css/main.c0d265c2.chunk.css.map",
   "index.html": "/rhythm-box/index.html",
-  "precache-manifest.b3516e8c51230f485a3c4f0ab54584dd.js": "/rhythm-box/precache-manifest.b3516e8c51230f485a3c4f0ab54584dd.js",
+  "precache-manifest.a3a0293808bce07f1ae407c3f515c8a3.js": "/rhythm-box/precache-manifest.a3a0293808bce07f1ae407c3f515c8a3.js",
   "service-worker.js": "/rhythm-box/service-worker.js"
 }

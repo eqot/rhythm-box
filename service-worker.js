@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/rhythm-box/precache-manifest.b3516e8c51230f485a3c4f0ab54584dd.js"
+  "/rhythm-box/precache-manifest.a3a0293808bce07f1ae407c3f515c8a3.js"
 );
 
 workbox.clientsClaim();
